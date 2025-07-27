@@ -1,92 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hackathon</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackathon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
 
-    <!-- navbarsection -->
-     <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
-  <div id="navbar" class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img id="navlogo" src="images/images.jpeg" alt="logo"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav" id="navlinks">
-        <a class="nav-link active" aria-current="page" href="#" id="aboutus">About us</a>
-        <a class="nav-link active" href="#">People</a>
-        <a class="nav-link active" href="#">Resume builder</a>
-        <a class="nav-link active" href="#">Resume Checker</a>
-        <a class="nav-link active" href="#">Jobs</a>
-        <a class="nav-link active" href="#">Login</a>
-        <a class="nav-link active" href="#">Join</a>
-        <a class="nav-link active" href="#" style="color: blue;">Employee/Post Job</a>
+  <!-- navbarsection -->
+  <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+    <div id="navbar" class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img id="navlogo" src="images/images.jpeg" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" id="navlinks">
+          <a class="nav-link active" aria-current="page" href="#" id="aboutus">About us</a>
+          <a class="nav-link active" href="#">People</a>
+          <a class="nav-link active" href="#">Resume builder</a>
+          <a class="nav-link active" href="#">Resume Checker</a>
+          <a class="nav-link active" href="#">Jobs</a>
+          <a class="nav-link active" href="#">Login</a>
+          <a class="nav-link active" href="#">Join</a>
+          <a class="nav-link active" href="#" style="color: blue;">Employee/Post Job</a>
+        </div>
       </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<!-- after div section -->
-<br><br>
-<section>
-  <div id="parentdiv">
-    <div id="firstchild">
-<p id="resumechecker">Resume checker</p>
-<h1 id="resumequestion">Is your resume good enough?</h1>
-<br><br>
-<p id="resume-description">A free and fast AI resume checker doing crucial checks to ensure your resume is ready to perform and get you interview callbacks.</p>
+  <!-- after div section -->
+  <br><br>
+  <section>
+    <div id="parentdiv">
+      <div id="firstchild">
+        <p id="resumechecker">Resume checker</p>
+        <h1 id="resumequestion">Is your resume good enough?</h1>
+        <br><br>
+        <p id="resume-description">A free and fast AI resume checker doing crucial checks to ensure your resume is ready
+          to perform and get you interview callbacks.</p>
 
-<div id="resume-checker-form">
-<form action="#">
-  <img src="images/cloud upload image.png" alt="cloud upload" id="cloud-upload">
-  <p id="upload-prompt">Upload Your Resume</p>
-  <p id="upload-instructions">PDF format only, max file 5mb</p>
- <img id="cloud-upload2" src="images/cloud upload image.png" alt="upload"><button id="upload-button">  upload your file</button>
-  </form>
+        <div id="resume-checker-form">
+          <form action="#">
+            <img src="images/cloud_upload_image-removebg-preview.png" alt="cloud upload" id="cloud-upload">
+            <p id="upload-prompt">Upload Your Resume</p>
+            <p id="upload-instructions">PDF format only, max file 5mb</p>
+            <img id="cloud-upload2" src="images/cloud_upload_image-removebg-preview.png" alt="upload"><button id="upload-button"> upload
+              your file</button>
+          </form>
 
 
-</div>
+        </div>
+
+
+
+      </div>
+      <div id="resume-checker">
+        <img width="100%" src="images/resume checker" alt="img">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- second div -->
+  <br><br><br>
+  <section>
+    <div id="parentdiv2">
+
+      <div id="firstchild2">
+        <img src="images/resumescanner" alt="resumescanner" id="resumescanner">
+      </div>
+      <div id="secondchild2">
+        <h2>HiringMine’s Resume Checker forms its ATS score with a two-tier system</h2>
+        <p class="secondchilddescription">When you’re applying for a job, there’s a high chance your resume will be
+          screened through an applicant tracking system way before it finds its way on a recruiter’s screen. ATS helps
+          hiring managers find the right candidates by searching for keywords and adding the resume to a database.</p>
+        <p class="secondchilddescription">That’s why the success of your resume is highly dependent on how optimized
+          your resume is for the job you’re applying for, the resume template you’re using, and what skills and keywords
+          you have included.</p>
+
+        <img class="numbers" src="images/number-1.webp" alt="1">
+        <h5>The proportion of content we can interpret</h5>
+        <p class="secondchilddescription"> Similar to an ATS, we analyze and attempt to comprehend your resume. The
+          greater our understanding of your resume, the more effectively it aligns with a company’s ATS.</p>
+
+        <img class="numbers" src="images/number 2.png" alt="2">
+        <h5>What our checker identifies</h5>
+        <p class="secondchilddescription">Although an ATS doesn’t look for spelling mistakes and poorly crafted content,
+          recruitment managers certainly do. The second part of our score is based on the quantifiable achievements you
+          have in your resume and the quality of the written content.</p>
+
+      </div>
+
+
+    </div>
+
+  </section>
+  <br><br>
+
+  <section>
+  <p id="ai-powered">Our AI-powered resume checker goes beyond typos and punctuation</p>
+  <h5 id="text-below-ai">We’ve built-in ChatGPT to help you create a resume that’s tailored to the position you’re
+    applying for.</h5>
+
+  <br>
+
+  <section>
+    <div id="parentdiv3">
+      <div id="firstchild3">
+
+        <h4>Resume optimization checklist</h4>
+        <p>We check for 16 crucial things across 5 different categories on your resume including content, file type, and
+          keywords in the most important sections of your resume.</p>
+
+      </div>
+
+
+      <div class="card rounded-4 secondchild3" style="width: 18rem;">
+        <div class="card-body">
+          <img id="secondchild3img" class="card-title" src="images/bulb.png" alt="">
+          <br><br>
+          <h6 class="card-subtitle mb-2 ">Skill suggestion</h6>
+          <br>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">Hard skill
+          </p>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">Soft skill
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="card rounded-4 secondchild3" style="width: 18rem;">
+        <div class="card-body">
+          <img id="secondchild3img" class="card-title" src="images/resume image.avif" alt="">
+          <br><br>
+          <h6 class="card-subtitle mb-2 ">Resume section</h6>
+          <br>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">Contact
+            information</p>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">Essential
+            sections</p>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">Personality
+            showcase with tips <span style="margin-left: 30px;"> on how to improve</span></p>
+
+        </div>
+
+
+      </div>
+
+
+     <div class="card secondchild3 rounded-4 third-child" style="width: 23rem;">
+        <div class="card-body">
+          <img id="secondchild3img" class="card-title" src="images/eidt image.webp" alt="">
+          <br><br>
+          <h6 class="card-subtitle mb-2 ">Content</h6>
+          <br>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">ATS parse rate</p>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">Repetition of words and phrases</p>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">Spelling and grammar</p>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">Quantifying impact in experience section <span style="margin-left: 30px;">with examples</span></p>
+
+        </div>
+
+
+      </div>
+
+
+      <div class="card  fourth-child rounded-4" style="width: 23rem;">
+        <div class="card-body">
+          <img id="secondchild3img" class="card-title" src="images/pdf image.webp" alt="">
+          <br><br>
+          <h6 class="card-subtitle mb-2 ">Format</h6>
+          <br>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">File format and size</p>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">Resume length</p>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">Long bullet points with suggestions on <span style="margin-left: 30px;">how to shorten</span></p>
+
+        </div>
+
+
+
+
+
+
+      </div>
+
+      <div class="card  fifth-child rounded-4" style="width: 20rem;">
+        <div class="card-body">
+          <img id="secondchild3img" class="card-title" src="images/style image.png" alt="">
+          <br><br>
+          <h6 class="card-subtitle mb-2 ">Style</h6>
+          <br>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">Resume design</p>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">Email address</p>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">Usage of active voice</p>
+          <p><img class="tickimage" src="images/tick image.webp" alt="tick" class="card-text">Usage of buzzwords and cliches</p>
+
+        </div>
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
 
 
 
     </div>
-    <div id="resume-checker">
-      <img width="100%" src="images/resume checker" alt="img">
-    </div>
 
-  </div>
-</section>
 
-<!-- second div -->
- <br><br><br>
-<section>
-<div id="parentdiv2">
+
+
+
+
+
+
+
+  </section>
+<br><br><br><br>
+
+
+  <section>
+
+<div id="parentdiv4">
   
-  <div id="firstchild2"> 
-<img src="images/resumescanner" alt="resumescanner" id="resumescanner">
-  </div>
-  <div id="secondchild2">
-    <h2>HiringMine’s Resume Checker forms its ATS score with a two-tier system</h2>
-    <p class="secondchilddescription">When you’re applying for a job, there’s a high chance your resume will be screened through an applicant tracking system way before it finds its way on a recruiter’s screen. ATS helps hiring managers find the right candidates by searching for keywords and adding the resume to a database.</p>
-    <p class="secondchilddescription">That’s why the success of your resume is highly dependent on how optimized your resume is for the job you’re applying for, the resume template you’re using, and what skills and keywords you have included.</p>
+  <div>
 
-    
+<img id="jasmineBell" src="images/jasmine bell" alt="jasmine">
 
   </div>
+
+  <div id="jasmineBellContainer">
+
+    <h3>Get an ATS understanding check</h3>
+    <p>Part of the resume checker score we assign is based on the parsability rate of your resume. We’ve reverse-engineered the most popular applicant tracking systems currently used and we look for signs of ATS compatibility.</p>
+<p>For each resume uploaded, we look for skills and keywords connected to the job and industry you’re applying for, readable contact information, file type, and length. Then, we’ll give you suggestions on how to improve your resume.</p>
+
+
+  </div>
+
+
+
+
+
+
+</div>
+
+
+  </section>
+
+<br><br><br>
+
+<h3 style="text-align: center;">Get your resume score now!</h3>
+<h5 style="text-align: center;">Upload your resume and you’ll get a personalized email with an actionable task list.</h5>
+
+<section>
+<div class="rounded-4" id="resumeUpload">
+<br>
+<img id="resumecloud" src="images/cloud_upload_image-removebg-preview.png" alt=""><br>
+<button class="rounded-pill">Upload your resume</button>
+<br><br>
+<p style="text-align: center;">Drop Your Resume here or choose a file.</p>
+<p style="text-align: center;" id="lineSpacing" >PDF & DOCX only. Max 2MB file size.</p>
+<br>
+<p style="text-align: center;"><img width="30px" src="images/privacy-removebg-preview.png" alt="privacy"> Security guaranteed.</p>
+
 
 
 </div>
 
 </section>
+
+
+
+
+<div class="faq-container" id="faqBox">
+  <div class="faq-question" onclick="toggleFAQ()">
+    What is a resume checker?
+    <span class="arrow">&#9650;</span> <!-- Up arrow -->
+  </div>
+  <div class="faq-answer">
+    <p>
+      A resume checker is a tool or software used to evaluate and improve resumes. It checks for proper formatting, relevant keywords (important for Applicant Tracking Systems), grammar and spelling errors, and content relevance.
+    </p>
+    <p>
+      HiringMine’s resume checker also assesses consistency in details, suggests customization for different industries, and provides feedback for improvement. We help ensure your resume meets current professional standards and trends and increase your chances of getting noticed by employers and recruiters.
+    </p>
+  </div>
+</div>
+
+<script>
+  function toggleFAQ() {
+    const faq = document.getElementById('faqBox');
+    faq.classList.toggle('active');
+  }
+</script>
+
+
+
+<div class="faq-container" id="faqBox2">
+  <div class="faq-question" onclick="toggleFAQ2()">
+    How do I check my resume score?
+    <span class="arrow">&#9650;</span>
+  </div>
+  <div class="faq-answer">
+    <p>
+      Upload your resume to HiringMine’s Resume Checker. Once we run the check you will be redirected to another page where you can see your report with a score on the left side of the screen.
+    </p>
+    <p>
+      Keep in mind that there’s no such thing as an ATS score – no tool online that provides a score gives an actual score.
+    </p>
+    <p>
+      HiringMine’s resume report scoring system is based on two major things:
+    </p>
+    <ul>
+      <li><strong>The percentage of parsed content:</strong> Like an ATS we parse your resume and we try to understand it. The more we understand from your resume, the better it performs with an ATS used by a company.</li>
+      <li><strong>The issues our checker finds:</strong> While applicant tracking systems don’t check for typos and badly written content, our checker and recruiting managers do. The second aspect of our scoring depends on the measurable accomplishments in your resume and the caliber of the writing.</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+  function toggleFAQ2() {
+    const faq = document.getElementById('faqBox2');
+    faq.classList.toggle('active');
+  }
+</script>
+
+
+
+
+
+
+
 
 
 
 
 </body>
+
 </html>

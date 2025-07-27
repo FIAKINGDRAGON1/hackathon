@@ -8,6 +8,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #fff, #E0FFFF);
 }
 #navbar{
     background-color: white;
@@ -99,8 +100,135 @@ margin-left: 80px;
     width: 15em;
     margin-left: 3em;
 }
+#secondchild2 h5{
+    margin-left: 6em;
+}
 
 .secondchilddescription{
 width: 30em;
 margin-left: 6em;
 }
+.numbers{
+    width: 3em;
+    margin-left:5em;
+}
+
+#ai-powered{
+    font-size: 40px;
+    text-align: center;
+}
+#text-below-ai{
+    text-align: center;
+}
+#parentdiv3{
+    display:flex;
+    gap: 2rem; /* optional: adds space between cards */
+    align-items: flex-start; /* optional: aligns cards to the top */
+    flex-wrap: wrap; /* optional: allows cards to wrap onto multiple lines */
+}
+#firstchild3 h4{
+margin-left: 3em;
+width: 10em;
+}
+#firstchild3 p{
+    width: 21em;
+    margin-left: 4.5em;
+}
+#secondchild3img{
+    width: 50px;
+
+}
+
+.tickimage{
+    width: 30px;
+}
+.secondchild3{
+    margin-left: 3em;
+    
+}
+
+.third-child{
+    margin-top: -9em;
+    margin-left: 4em;
+}
+
+.fourth-child{
+    margin-top: -5em;
+}
+
+#parentdiv4{
+    display:flex;
+}
+
+#jasmineBell{
+    width: 35em;
+    margin-left: 3em;
+}
+
+#jasmineBellContainer{
+    margin-left: 3em;
+    text-align: center;
+    margin-top: 15%;
+}
+
+#resumeUpload{
+    border: 1px dotted blue;
+    width: 40em;
+    margin-left: 20%;
+}
+#resumecloud{
+    width: 60px;
+    margin-left: 18em;
+}
+
+#resumeUpload button{
+    margin-left: 15em;
+    background-color: rgb(104, 81, 255);
+}
+#resumeUpload button:hover{
+    background-color: rgb(104, 81, 255);
+    color: white;
+}
+#lineSpacing{
+    margin-top: -1em;
+}
+
+
+.faq-container {
+      width: 90%;
+      margin: 30px auto;
+      font-family: Arial, sans-serif;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 15px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .faq-question {
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-answer {
+      display: none;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .active .faq-answer {
+      display: block;
+    }
+
+    .arrow {
+      transition: transform 0.3s ease;
+    }
+
+    .active .arrow {
+      transform: rotate(180deg);
+    }
