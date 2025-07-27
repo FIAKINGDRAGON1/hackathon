@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/static/Roboto-Black.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#navbar{
+    background-color: white;
+    height:100px;
+}
+
+#navlogo{
+    width: 80px;
+    margin-left: 40px;
+}
+#aboutus{
+    margin-left: 100px;
+}
+#navlinks{
+    gap: 30px;
+}
+
+#parentdiv{
+    display: flex;
+    
+}
+#resumechecker{
+    color: blue;
+    margin-left: 80px;
+    font-size: larger;
+    
+}
+#resumequestion{
+    font-size: 50px;
+    width: 10em;
+    border: 1px solid black;
+    margin-left: 80px;
+}
+#resume-description{
+    font-size: 14px;
+    width: 36em;
+    margin-left: 80px;
+}
+#resume-checker-form{
+    height: 15em;
+    border: 1px dotted blue;
+    width: 31em;
+    margin-left: 80px;
+    border-radius: 8px;
+}
+#cloud-upload{
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 12.5em;
+}
+#upload-prompt{
+    color: blue;
+    margin-left: 10.5em;
+}
+#upload-instructions{
+    margin-left: 9.5em;
+    font-size: 15px;
+}
+#upload-button{
+    
+    padding-left: 60px;
+    margin-left: 6em;
+    height: 50px;
+    background-color: white;
+}
+#cloud-upload2{
+    position: relative;
+    /* top: 10px; */
+    left: 9.5em;
+    z-index: 1;
+    width: 50px;
+    background-repeat: no-repeat;
+    
+}
+#resume-checker{
+    margin-top: 5em;
+    width: 40em;
+    margin-right: 5em;
+}
+#parentdiv2{
+    display: flex;
+}
+#resumescanner{
+width: 30em;
+margin-left: 80px;
+}
+
+#secondchild2 h2{
+    width: 15em;
+    margin-left: 3em;
+}
+
+.secondchilddescription{
+width: 30em;
+margin-left: 6em;
+}
