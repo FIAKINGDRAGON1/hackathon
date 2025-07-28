@@ -2,6 +2,13 @@
     font-family: 'Roboto';
     src: url(font/static/Roboto-Black.ttf);
 }
+@font-face {
+    font-family: 'Roboto Light';
+    src: url(font/static/Roboto-Light.ttf);
+}
+p,a{
+    font-family: 'Roboto Light';
+}
 
 body{
     margin: 0;
@@ -39,7 +46,7 @@ body{
 #resumequestion{
     font-size: 50px;
     width: 10em;
-    border: 1px solid black;
+    
     margin-left: 80px;
 }
 #resume-description{
@@ -49,10 +56,11 @@ body{
 }
 #resume-checker-form{
     height: 15em;
-    border: 1px dotted blue;
+    border: 3px dashed blue;
     width: 31em;
     margin-left: 80px;
     border-radius: 8px;
+    
 }
 #cloud-upload{
     width: 70px;
@@ -172,7 +180,7 @@ width: 10em;
 }
 
 #resumeUpload{
-    border: 1px dotted blue;
+    border: 2px dashed blue;
     width: 40em;
     margin-left: 20%;
 }
@@ -232,3 +240,43 @@ width: 10em;
     .active .arrow {
       transform: rotate(180deg);
     }
+
+    #main-footer{
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(20, 42, 236), #7310f5);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-description{
+    margin-left: 30px;
+    color: white;
+  }
+  .footer-follow{
+    font-size: 40px;
+    margin-left: 30px;
+    color: white;
+  }
+  .footer-icons{
+    margin-left: 30px;
+  }
+  #hrhaye{
+  height: 5px;
+  background-color: whitesmoke;
+  border: none;
+  }
+  #sub-div-footer{
+    margin-left: 850px;
+    margin-top: -22em;
+    color: white  ;
+  }
+    #last-sub-div-footer
+    {
+      color: white;
+      margin-top: 20px;
+      margin-left: 40%;
+      text-align: center;
+    }
+    #sub-div-footer p {
+  margin-top: -0.5em;
+  
+}
