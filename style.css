@@ -9,28 +9,34 @@
 p,a{
     font-family: 'Roboto Light';
 }
+a:focus, a:hover, a:active {
+    color: blue !important;
+}
 
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(to bottom, #fff, #E0FFFF);
+     transition: background-color 0.3s, color 0.3s;
 }
 #navbar{
     background-color: white;
     height:100px;
+    
 }
 
 #navlogo{
     width: 80px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 #aboutus{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 #navlinks{
-    gap: 30px;
+    gap: 20px;
+    font-size: 15px;
+    
 }
 
 #parentdiv{
@@ -80,7 +86,7 @@ body{
     padding-left: 60px;
     margin-left: 6em;
     height: 50px;
-    background-color: white;
+    background-color: lightblue;
 }
 #cloud-upload2{
     position: relative;
@@ -182,7 +188,7 @@ width: 10em;
 #resumeUpload{
     border: 2px dashed blue;
     width: 40em;
-    margin-left: 20%;
+    margin-left: 22%;
 }
 #resumecloud{
     width: 60px;
@@ -243,7 +249,7 @@ width: 10em;
 
     #main-footer{
     width: 100%;
-    background: linear-gradient(to bottom, rgb(20, 42, 236), #7310f5);
+    background: linear-gradient(to bottom, #7310f5, #D8BFD8 );
     display: flex;
     flex-wrap: wrap;
   }
@@ -279,4 +285,30 @@ width: 10em;
     #sub-div-footer p {
   margin-top: -0.5em;
   
-}
+}.dark-mode {
+      background-color: #121212;
+      color: white;
+    }
+
+    .toggle-btn {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .toggle-btn:hover {
+      background-color: #0056b3;
+    }
+
+    #sub-div-footer a{
+text-decoration: none;
+color: white;
+    }
+
+    #last-sub-div-footer a{
+        text-decoration: none;
+        color: white;
+    }
